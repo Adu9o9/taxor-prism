@@ -1,0 +1,122 @@
+{
+  "bill_1.jpeg": {
+    "vendor_name": "PEOPLE'S PUBLISHING HOUSE (P) LTD.",
+    "invoice_number": "655282", 
+    "date": "2007-05-12", 
+    "total_amount": 525.00,
+    "tax_amount": 0.00,
+    "gstin": "Unspecified"
+  },
+  "bill_2.jpeg": {
+    "vendor_name": "Govt. Fruit Preservation Factory",
+    "invoice_number": "1814",
+    "date": "2016-09-08",
+    "total_amount": 720.00,
+    "tax_amount": 0.00,
+    "gstin": "Unspecified"
+  },
+  "bill_3.jpeg": {
+    "vendor_name": "SANDEEP AUTO COMPANY",
+    "invoice_number": "85-86/129",
+    "date": "1986-01-23",
+    "total_amount": 18700.00,
+    "tax_amount": 0.00,
+    "gstin": "Unspecified"
+  },
+  "bill_4.jpeg": {
+    "vendor_name": "KAMAL & COMPANY",
+    "invoice_number": "8979",
+    "date": "2025-03-10",
+    "total_amount": 3234.00,
+    "tax_amount": 0.00,
+    "gstin": "08AAFFK1981K1ZO"
+  },
+  "bill_5.jpeg": {
+    "vendor_name": "SRI DASARI SURYANARAYANA KIRANA & GENERAL STORES",
+    "invoice_number": "246",
+    "date": "2018-08-08",
+    "total_amount": 4309.00,
+    "tax_amount": 0.00,
+    "gstin": "37BFWPD8966G1ZN"
+  },
+  "bill_6.jpeg": {
+    "vendor_name": "THE WISDOM SHOP",
+    "invoice_number": "1389",
+    "date": "2016-01-14",
+    "total_amount": 1430.00,
+    "tax_amount": 0.00,
+    "gstin": "Unspecified"
+  },
+  "bill_7.jpeg": {
+    "vendor_name": "The Pulikeshi DINING ROOM",
+    "invoice_number": "21885",
+    "date": "2010-04-03",
+    "total_amount": 610.00,
+    "tax_amount": 0.00,
+    "gstin": "Unspecified"
+  },
+  "bill_8.jpeg": {
+    "vendor_name": "HOTEL LIBORAN",
+    "invoice_number": "04747",
+    "date": "1987-11-13",
+    "total_amount": 43.00,
+    "tax_amount": 0.00,
+    "gstin": "Unspecified"
+  },
+  "bill_9.jpeg": {
+    "vendor_name": "JAN MEDICAL",
+    "invoice_number": "1153",
+    "date": "2021-06-07",
+    "total_amount": 802.00,
+    "tax_amount": 0.00,
+    "gstin": "Unspecified"
+  },
+  "bill_10.jpeg": {
+    "vendor_name": "SHREE OM MEDICAL AGENCY",
+    "invoice_number": "1853",
+    "date": "2020-08-08",
+    "total_amount": 5575.00,
+    "tax_amount": 0.00,
+    "gstin": "Unspecified"
+  },
+  "bill_11.jpeg": {
+    "vendor_name": "L. D. SELKREGG",
+    "invoice_number": "Unspecified",
+    "date": "1901-10-01",
+    "total_amount": 62.44,
+    "tax_amount": 0.00,
+    "gstin": "Unspecified"
+  },
+  "bill_12.jpeg": {
+    "vendor_name": "PALMIYE CAFE RESTAURANT",
+    "invoice_number": "003552",
+    "date": "2021-05-01",
+    "total_amount": 353.00,
+    "tax_amount": 0.00,
+    "gstin": "Unspecified"
+  },
+  "bill_13.jpeg": {
+    "vendor_name": "ANANDA KALYANA MANDIRA",
+    "invoice_number": "1098",
+    "date": "1980-09-01",
+    "total_amount": 455.00,
+    "tax_amount": 0.00,
+    "gstin": "Unspecified"
+  },
+  "bill_14.jpeg": {
+    "vendor_name": "Chick Chocolate",
+    "invoice_number": "5446",
+    "date": "1959-07-30",
+    "total_amount": 23.10,
+    "tax_amount": 0.12,
+    "gstin": "Unspecified"
+  },
+  "bill_15.jpeg": {
+    "vendor_name": "MOTI MAHAL RESTAURANT",
+    "invoice_number": "98423",
+    "date": "1971-06-28",
+    "total_amount": 2.16,
+    "tax_amount": 0.16,
+    "gstin": "Unspecified"
+  }
+}

@@ -24,3 +24,45 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spinAngle {
+  to {
+    --angle: 360deg;
+  }
+}
+
+.glowing-winner-wrapper {
+  position: relative;
+  border-radius: 1.1rem;
+  z-index: 1;
+}
+
+/* The sharp rotating border */
+.glowing-winner-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  /* Pulls the gradient slightly outside the card */
+  border-radius: inherit;
+  background: conic-gradient(from var(--angle), #3b82f6, #8b5cf6, #ec4899, #06b6d4, #3b82f6);
+  animation: spinAngle 3s linear infinite;
+  z-index: -1;
+}
+
+/* The blurred outer glow */
+.glowing-winner-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: inherit;
+  background: conic-gradient(from var(--angle), #3b82f6, #8b5cf6, #ec4899, #06b6d4, #3b82f6);
+  animation: spinAngle 3s linear infinite;
+  z-index: -2;
+  filter: blur(14px);
+  opacity: 0.65;
+}
