@@ -1,5 +1,7 @@
 # Taxor Prism — Handwritten Bill Extraction & Model Evaluation Framework
 
+**🚀 Live Interactive Demo:** [https://taxor-prism.vercel.app/](https://taxor-prism.vercel.app/)
+
 Taxor Prism is an enterprise-grade evaluation framework and interactive web application designed to benchmark Vision LLMs on unstructured, handwritten Indian bills and sync validated expense entries directly into **Zoho Books**.
 
 This project was built as a submission for the Taxor Software Engineering Internship screening task.
