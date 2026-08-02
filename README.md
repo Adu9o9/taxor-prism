@@ -52,6 +52,19 @@ Because LLMs return slightly varying string formats, a binary `===` check is ins
 
 ---
 
+## 🔌 Zoho Books API Integration (Step 5)
+
+Taxor Prism features full, live OAuth 2.0 integration with the **Zoho Books API** to turn extracted receipt data into verified accounting entries.
+
+* **API Mapping:** Extracted payloads dynamically map into Zoho's `/expenses` endpoint:
+  * `vendor_name` $\rightarrow$ Vendor / Expense Note
+  * `total_amount` $\rightarrow$ Amount (`INR`)
+  * `invoice_number` $\rightarrow$ Reference Number (`Ref #`)
+  * `date` $\rightarrow$ Transaction Date
+* **Live Verification:** Anyone using the [Live Vercel Demo](https://taxor-prism.vercel.app/) can extract a bill and click **"Push to Zoho Books"** to trigger a real-time serverless API call that generates an expense record (e.g., *Ref #4931 — SEA ROCK RESTAURANT — ₹340.00*).
+
+---
+
 ## 🛠️ Setup & Local Installation
 
 ### Prerequisites
