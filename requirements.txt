@@ -1,0 +1,16 @@
+# Data Engineering & Database
+psycopg2-binary==2.9.9
+pandas==2.2.1
+
+# Data Validation & Parsing
+pydantic==2.6.3
+
+# Fault Tolerance & Retries
+tenacity==8.2.3
+
+# AI APIs
+google-genai==0.3.0
+groq==0.4.2
+
+# Utilities
+python-dotenv==1.0.1
